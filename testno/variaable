@@ -1,0 +1,75 @@
+<?php
+$name = "md foysal ali riyad";
+echo "my name is {$name}";
+echo PHP_EOL;
+$name2 = "md robiul islam";
+echo "my father name is {$name2}";
+echo PHP_EOL;
+for($i=10, $factorial = 1;$i<=20;$i++){
+      $factorial *= $i;
+      echo "the number is {$i} and {$factorial}";
+      echo PHP_EOL;
+}
+echo PHP_EOL;
+$alaom = 2000;
+$rohim = 200;
+if($alaom==$rohim){
+    echo "alaom and rohim has same amaount of money";
+}elseif($alaom<$rohim){
+    echo "alaom has less money than rohim";
+}elseif($alaom>$rohim){
+    echo "alaom has more money than rohim";
+}elseif($alaom<=$rohim){
+    echo "alaom and rohim has same amaount of money";
+}else{
+    echo "i don't ths answer";
+}
+echo "\n";
+for($n=0;$n<=10;$n++){
+    echo $n;
+    echo PHP_EOL;
+}
+$number = 1234;
+printf('the number of %1$d=%1$x',$number);
+echo PHP_EOL;
+for($j=100;$j>90;$j--){
+    echo $j;
+    echo PHP_EOL;
+}
+echo PHP_EOL;
+for($num1=1,$num2=1;$num1<100;$num1+=7,$num2+=11){
+    echo $num1.":".$num2;
+     echo PHP_EOL;
+}
+echo PHP_EOL;
+$food = "orange";
+switch(true){
+    case($food=="salmon"):
+        echo "this is my favourite food";
+        break;
+    case($food=="apple"):
+        echo "I like apple very much";
+    case($food=="tuna"):
+        echo "I son't like tuna sorry";
+        break;
+    default:
+         echo "i don't know about this food";
+}
+echo PHP_EOL;
+$number1 = 0;
+if($number1>0){
+    echo "it is positive";
+}elseif($number1<0){
+    echo "it is negative";
+}elseif($number1<-10){
+    echo "value of -10";
+}else{
+    echo "it's zero";
+}
+echo "\n";
+$age = 20;
+$year = "age";
+echo $$year;
+echo "\n";
+$country = "bangladesh";
+echo strtoupper($country);
